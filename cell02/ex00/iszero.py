@@ -1,7 +1,13 @@
-x = int(input())
+while(True):
+	x = input()
+	try:
+		x = int(x)
+		break
 
-if (x == 0):
-    print("This number is equal to zero.")
+	except ValueError:
+		break
+if (int(x) == 0):
+   	 print("This number is equal to zero.")
 
 else:
     print("This number is different from zero.")
