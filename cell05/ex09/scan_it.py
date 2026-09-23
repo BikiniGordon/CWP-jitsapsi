@@ -2,7 +2,7 @@
 import sys, re
 count = 0
 
-if (str(len(sys.argv)-1) == "1"):
+if (str(len(sys.argv)-1) != "2"):
     print("none")
 else:
     key = sys.argv[1]
